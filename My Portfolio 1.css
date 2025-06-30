@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+   font-family:  sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  box-sizing: border-box;
+}
+body{
+    
+    background-color: #111;
+    height: 100vh;
+    overflow-y: auto;   /* ✅ enable vertical scroll */
+  overflow-x: hidden;
+  height: auto;  
+}
+.navbar{
+    position: fixed;
+    /* top: 10px; */
+    width: 100%;
+    height: 80px;
+    background: #F8A807;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+ 
+    
+    font-weight: bolder
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    margin: 0 145px;
+    cursor: pointer;
+}
+.scrol-container{
+ position: fixed;
+ display: flex;
+ justify-content: center;
+ 
+
+}
+.side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.side img{
+    width: 450px;
+    height: 524px;
+    margin-top: 80px;
+    display: inline block;
+    
+}
+.sidee{
+    display: flex;
+    text-decoration: none;
+    margin-top: 110px;
+    color: white;
+}
+.sidee h1{
+    position: absolute;
+    display: inline-block;
+    font-size: 120px;
+    margin-left: 110px;
+}
+.sidee p{
+    margin-top: 300px;
+    margin-left: 120px;
+}
+.sidee button {
+    position: absolute;
+    width: 95px;
+    height: 45px;
+    background: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 380px;
+    margin-left:120px ;
+    transition: all 0.50s ease;
+}
+.sidee button:hover{
+    background-color: #F8A807;
+    color: black;
+    font-size: 10px;
+    font-weight: bold;
+    
+}
+.sidee #p{
+    position: absolute;
+    margin-top: 390px;
+    margin-left: 240px;
+    cursor: pointer;
+}
+.scroll-introduction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scroll-introduction img{
+    width: 550px;
+    height: 424px;
+}
